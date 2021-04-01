@@ -27,5 +27,3 @@ RUN mkdir -p /venv \
   && python3 -m venv /venv/
 RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
   && chmod +x Miniconda3-latest-Linux-x86_64.sh \
-  && yes yes | bash Miniconda3-latest-Linux-x86_64.sh \
-  && rm -rf Miniconda3-latest-Linux-x86_64.sh
