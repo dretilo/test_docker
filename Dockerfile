@@ -26,4 +26,11 @@ RUN mkdir -p /run/sshd
 RUN mkdir -p /venv \
   && python3 -m venv /venv/
 RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
-  && chmod +x Miniconda3-latest-Linux-x86_64.sh \
+  && chmod +x Miniconda3-latest-Linux-x86_64.sh \  
+  && bash Miniconda3-latest-Linux-x86_64.sh -p /root/conda -b \
+  && rm -rf Miniconda3-latest-Linux-x86_64.sh
+ENV PATH=/conda/bin:${PATH}
+ADD env_ia.yml ./env_ia.yml
+RUN conda env create -f env_ia.yml
+
+
