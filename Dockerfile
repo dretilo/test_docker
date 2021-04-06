@@ -30,7 +30,7 @@ RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
   && bash Miniconda3-latest-Linux-x86_64.sh -p /root/conda -b \
   && rm -rf Miniconda3-latest-Linux-x86_64.sh
 ENV PATH=/root/conda/bin:${PATH}
-ADD env_ia.yml ./env_ia.yml
-RUN conda env create -f env_ia.yml
-
+ADD env_ia_full.yml ./env_ia.yml
+#RUN conda env create -f env_ia.yml
+RUN conda create --name env_ia --file env_ia.yml
 
