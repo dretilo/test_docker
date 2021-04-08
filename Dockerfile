@@ -25,6 +25,54 @@ RUN mkdir -p /run/sshd
 # create python venv
 RUN mkdir -p /venv \
   && python3 -m venv /venv/
+# Install jupyterlab and its plotly extension
+RUN /venv/bin/pip3 install --upgrade pip --no-cache-dir \
+    jupyterlab \
+    ipywidgets>=7.5 \
+    ipython \
+    ipykernel \
+    xeus-python \
+    ptvsd \
+    plotly \
+  && curl -sL https://deb.nodesource.com/setup_15.x | bash \
+  && export DEBIAN_FRONTEND=noninteractive \
+  && apt-get update \
+  && apt-get install -y nodejs \
+  && rm -rf /var/lib/apt/lists/* \
+  && /venv/bin/jupyter labextension install jupyterlab-plotly@4.14.3 @jupyter-widgets/jupyterlab-manager plotlywidget@4.14.3 --no-build \
+  && /venv/bin/jupyter labextension install @jupyterlab/debugger --no-build \
+  && /venv/bin/jupyter lab build \
+  && /venv/bin/jupyter lab clean \
+  && /venv/bin/jlpm cache clean \
+  && npm cache clean --force \
+  && rm -rf $HOME/.node-gyp \
+  && rm -rf $HOME/.local
+# install all other required python packages
+RUN /venv/bin/pip3 install --no-cache-dir \
+    pandas \
+    xlrd \
+    numpy \
+    scipy \
+    matplotlib \
+    scikit-learn \
+    openpyxl \
+    beautifulsoup4 \
+    Pillow \
+    graphviz \
+    lxml \
+    python-dateutil \
+    pylint \
+    requests_html \
+    dash \
+    dash_daq \
+    dash-bootstrap-components \
+    gunicorn \
+    SQLAlchemy \
+    alembic \
+    dpkt \
+    gpsd-py3 \
+    h5py  
+# Install Miniconda et création environnement pour inférence imagettes
 RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
   && chmod +x Miniconda3-latest-Linux-x86_64.sh \  
   && bash Miniconda3-latest-Linux-x86_64.sh -p /root/conda -b \
