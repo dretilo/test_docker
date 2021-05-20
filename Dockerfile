@@ -1,4 +1,4 @@
-FROM ubuntu:focal
+FROM nvidia/cuda:11.3.0-base-ubuntu20.04
 # initial packages install
 RUN export DEBIAN_FRONTEND=noninteractive \
   && apt-get update \
