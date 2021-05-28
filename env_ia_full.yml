@@ -142,7 +142,7 @@ https://anaconda.org/conda-forge/pyqt/5.12.3/download/linux-64/pyqt-5.12.3-py36h
 https://repo.anaconda.com/pkgs/main/linux-64//pysocks-1.7.1-py36_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64//python-3.6.8-h0371630_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64//python-dateutil-2.7.5-py36_0.tar.bz2
-https://repo.anaconda.com/pkgs/main/linux-64/pytorch-gpu-1.2.0-0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/pytorch-1.7.1-cpu_py37h6a09485_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64//pytz-2018.7-py36_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64/pywavelets-1.1.1-py36h7b6447c_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64//pyzmq-18.1.0-py36he6710b0_0.tar.bz2
@@ -176,7 +176,7 @@ https://repo.anaconda.com/pkgs/main/linux-64//tensorflow-gpu-1.12.0-h0d30ee6_0.t
 https://repo.anaconda.com/pkgs/main/linux-64//termcolor-1.1.0-py36_1.tar.bz2
 https://anaconda.org/conda-forge/tk/8.6.10/download/linux-64/tk-8.6.10-hed695b0_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/noarch/toolz-0.10.0-py_0.tar.bz2
-https://repo.anaconda.com/pkgs/main/linux-64//torchvision-0.2.1-py36_0.tar.bz2
+https://anaconda.org/pytorch/torchvision/0.8.2/download/linux-64/torchvision-0.8.2-py36_cu102.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64//tornado-5.1.1-py36h7b6447c_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/noarch/tqdm-4.42.1-py_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64//traitlets-4.3.3-py36_0.tar.bz2
