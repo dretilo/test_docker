@@ -35,5 +35,5 @@ ADD env_ia_full.yml ./env_ia.yml
 RUN conda create --name env_ia --file env_ia.yml \
   && rm -rf env_ia.yml \
   && conda install -c conda-forge jupyterlab \
-  && conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+  && conda install pytorch torchvision cudatoolkit=10.2 -c pytorch \
   && conda clean --all -y
