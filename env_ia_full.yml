@@ -1,201 +1,201 @@
-name: env_ia
-channels:
-- defaults
-dependencies:
-- _libgcc_mutex
-- _py-xgboost-mutex
-- _tflow_select
-- absl-py
-- alabaster
-- asn1crypto 
-- astor
-- babel
-- backcall 
-- blas 
-- bzip2
-- c-ares 
-- ca-certificates
-- cairo
-- certifi
-- cffi 
-- chardet
-- cloudpickle
-- cryptography 
-- cudatoolkit
-- cudnn
-- cupti
-- cycler 
-- cytoolz
-- dask-core
-- dbus 
-- decorator
-- docopt 
-- docutils 
-- expat
-- ffmpeg 
-- fontconfig 
-- freeglut 
-- freetype 
-- gast 
-- gettext
-- giflib 
-- glib 
-- gmp
-- gnutls 
-- graphite2
-- grpcio 
-- gst-plugins-base 
-- gstreamer
-- h5py 
-- harfbuzz 
-- hdf5 
-- icu
-- idna 
-- imageio
-- imagesize
-- intel-openmp 
-- ipykernel
-- ipython
-- ipython_genutils 
-- jasper 
-- jedi 
-- jinja2 
-- joblib 
-- jpeg 
-- jupyter_client 
-- jupyter_core 
-- keras-applications 
-- keras-preprocessing
-- kiwisolver 
-- lame 
-- libblas
-- libcblas 
-- libclang 
-- libedit
-- libffi 
-- libgcc-ng
-- libgfortran-ng 
-- libglu 
-- libiconv 
-- liblapack
-- liblapacke 
-- libllvm9 
-- libopenblas
-- libopencv
-- libopus
-- libpng 
-- libprotobuf
-- libsodium
-- libstdcxx-ng 
-- libtiff
-- libuuid
-- libvpx 
-- libwebp
-- libxcb 
-- libxgboost 
-- libxkbcommon 
-- libxml2
-- markdown 
-- markupsafe 
-- matplotlib 
-- matplotlib-base
-- mkl
-- mkl_fft
-- mkl_random 
-- mock 
-- natsort
-- nccl 
-- ncurses
-- nettle 
-- networkx 
-- ninja
-- nspr 
-- nss
-- numpy
-- numpy-base 
-- olefile
-- opencv 
-- openh264 
-- openssl
-- packaging
-- pandas 
-- parso
-- patsy
-- pcre 
-- perf 
-- pexpect
-- pickleshare
-- pillow 
-- pip
-- pixman 
-- pockets
-- prompt_toolkit 
-- protobuf 
-- ptyprocess 
-- py-opencv
-- py-xgboost 
-- pycparser
-- pygments 
-- pyopenssl
-- pyparsing
-- pyqt 
-- pysocks
-- python 
-- python-dateutil
-- pytorch
-- pytz 
-- pywavelets 
-- pyzmq
-- qt 
-- readline 
-- requests 
-- scikit-image 
-- scikit-learn 
-- scipy
-- seaborn
-- setuptools 
-- shap 
-- sip
-- six
-- snowballstemmer
-- sphinx 
-- sphinx_rtd_theme 
-- sphinxcontrib-applehelp
-- sphinxcontrib-devhelp
-- sphinxcontrib-htmlhelp 
-- sphinxcontrib-jsmath 
-- sphinxcontrib-napoleon 
-- sphinxcontrib-qthelp 
-- sphinxcontrib-serializinghtml
-- sqlite 
-- statsmodels
-- tensorboard
-- tensorflow 
-- tensorflow-base
-- tensorflow-gpu 
-- termcolor
-- tk 
-- toolz
-- torchvision
-- tornado
-- tqdm 
-- traitlets
-- urllib3
-- wcwidth
-- werkzeug 
-- wheel
-- x264 
-- xgboost
-- xorg-kbproto 
-- xorg-libice
-- xorg-libsm 
-- xorg-libx11
-- xorg-libxext 
-- xorg-libxrender
-- xorg-renderproto 
-- xorg-xextproto 
-- xorg-xproto
-- xz 
-- zeromq 
-- zlib 
-- zstd 
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+@EXPLICIT
+https://repo.anaconda.com/pkgs/main/linux-64//_libgcc_mutex-0.1-main.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//_py-xgboost-mutex-2.0-cpu_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//_tflow_select-2.1.0-gpu.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//absl-py-0.6.1-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/alabaster-0.7.12-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//asn1crypto-1.2.0-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//astor-0.7.1-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/babel-2.7.0-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//backcall-0.1.0-py36_0.tar.bz2
+https://anaconda.org/conda-forge/blas/2.11/download/linux-64/blas-2.11-openblas.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//bzip2-1.0.6-h14c3975_5.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//c-ares-1.15.0-h7b6447c_1.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//ca-certificates-2018.03.07-0.tar.bz2
+https://anaconda.org/conda-forge/cairo/1.16.0/download/linux-64/cairo-1.16.0-hfb77d84_1002.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//certifi-2018.11.29-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//cffi-1.11.5-py36he75722e_1.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//chardet-3.0.4-py36_1003.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/cloudpickle-1.3.0-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//cryptography-2.5-py36h1ba5d50_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/cudatoolkit-10.2.89-hfd86e86_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//cudnn-7.1.2-cuda9.0_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//cupti-9.0.176-0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//cycler-0.10.0-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/cytoolz-0.10.1-py36h7b6447c_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/dask-core-2.10.1-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/dbus-1.13.12-h746ee38_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/decorator-4.4.1-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//docopt-0.6.2-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//docutils-0.15.2-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//expat-2.2.6-he6710b0_0.tar.bz2
+https://anaconda.org/conda-forge/ffmpeg/4.1.3/download/linux-64/ffmpeg-4.1.3-h167e202_0.tar.bz2
+https://anaconda.org/conda-forge/fontconfig/2.13.1/download/linux-64/fontconfig-2.13.1-h86ecdb6_1001.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//freeglut-3.0.0-hf484d3e_5.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//freetype-2.9.1-h8a8886c_1.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//gast-0.2.1-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/gettext-0.19.8.1-hd7bead4_3.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/giflib-5.1.4-h14c3975_1.tar.bz2
+https://anaconda.org/conda-forge/glib/2.58.3/download/linux-64/glib-2.58.3-h6f030ca_1002.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/gmp-6.1.2-h6c8ec71_1.tar.bz2
+https://anaconda.org/conda-forge/gnutls/3.6.5/download/linux-64/gnutls-3.6.5-hd3a4fd2_1002.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//graphite2-1.3.13-h23475e2_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//grpcio-1.16.1-py36hf8bcb03_1.tar.bz2
+https://anaconda.org/conda-forge/gst-plugins-base/1.14.5/download/linux-64/gst-plugins-base-1.14.5-h0935bb2_2.tar.bz2
+https://anaconda.org/conda-forge/gstreamer/1.14.5/download/linux-64/gstreamer-1.14.5-h36ae1b5_0.tar.bz2
+https://anaconda.org/conda-forge/h5py/2.10.0/download/linux-64/h5py-2.10.0-nompi_py36h513d04c_102.tar.bz2
+https://anaconda.org/conda-forge/harfbuzz/2.4.0/download/linux-64/harfbuzz-2.4.0-h9f30f68_3.tar.bz2
+https://anaconda.org/psi4/hdf5/1.10.5/download/linux-64/hdf5-1.10.5-nompi_h3c11f04_1104.tar.bz2
+https://anaconda.org/conda-forge/icu/64.2/download/linux-64/icu-64.2-he1b5a44_1.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//idna-2.8-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/imageio-2.6.1-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/imagesize-1.1.0-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//intel-openmp-2019.1-144.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//ipykernel-5.1.3-py36h39e3cac_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//ipython-7.9.0-py36h39e3cac_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//ipython_genutils-0.2.0-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/jasper-1.900.1-hd497a04_4.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//jedi-0.15.1-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/jinja2-2.10.3-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//joblib-0.13.2-py36_0.tar.bz2
+https://anaconda.org/conda-forge/jpeg/9c/download/linux-64/jpeg-9c-h14c3975_1001.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//jupyter_client-5.3.4-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//jupyter_core-4.6.1-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//keras-applications-1.0.6-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//keras-preprocessing-1.0.5-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//kiwisolver-1.0.1-py36hf484d3e_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/lame-3.100-h7b6447c_0.tar.bz2
+https://anaconda.org/conda-forge/libblas/3.8.0/download/linux-64/libblas-3.8.0-11_openblas.tar.bz2
+https://anaconda.org/conda-forge/libcblas/3.8.0/download/linux-64/libcblas-3.8.0-11_openblas.tar.bz2
+https://anaconda.org/conda-forge/libclang/9.0.1/download/linux-64/libclang-9.0.1-default_hde54327_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/libedit-3.1.20181209-hc058e9b_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//libffi-3.2.1-hd88cf55_4.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//libgcc-ng-8.2.0-hdf63c60_1.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//libgfortran-ng-7.3.0-hdf63c60_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//libglu-9.0.0-hf484d3e_1.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/libiconv-1.15-h63c8f33_5.tar.bz2
+https://anaconda.org/conda-forge/liblapack/3.8.0/download/linux-64/liblapack-3.8.0-11_openblas.tar.bz2
+https://anaconda.org/conda-forge/liblapacke/3.8.0/download/linux-64/liblapacke-3.8.0-11_openblas.tar.bz2
+https://anaconda.org/conda-forge/libllvm9/9.0.1/download/linux-64/libllvm9-9.0.1-hc9558a2_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//libopenblas-0.3.6-h5a2b251_2.tar.bz2
+https://anaconda.org/conda-forge/libopencv/4.1.2/download/linux-64/libopencv-4.1.2-h6185dc4_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//libopus-1.3-h7b6447c_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/libpng-1.6.37-hbc83047_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//libprotobuf-3.6.1-hd408876_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//libsodium-1.0.16-h1bed415_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//libstdcxx-ng-8.2.0-hdf63c60_1.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/libtiff-4.1.0-h2733197_0.tar.bz2
+https://anaconda.org/conda-forge/libuuid/2.32.1/download/linux-64/libuuid-2.32.1-h14c3975_1000.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//libvpx-1.7.0-h439df22_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/libwebp-1.0.1-h8e7db2f_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//libxcb-1.13-h1bed415_1.tar.bz2
+https://anaconda.org/conda-forge/libxgboost/0.90/download/linux-64/libxgboost-0.90-he1b5a44_4.tar.bz2
+https://anaconda.org/conda-forge/libxkbcommon/0.10.0/download/linux-64/libxkbcommon-0.10.0-he1b5a44_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/libxml2-2.9.9-hea5a465_1.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//markdown-3.0.1-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//markupsafe-1.1.1-py36h7b6447c_0.tar.bz2
+https://anaconda.org/conda-forge/matplotlib/3.1.2/download/linux-64/matplotlib-3.1.2-py36_0.tar.bz2
+https://anaconda.org/conda-forge/matplotlib-base/3.1.2/download/linux-64/matplotlib-base-3.1.2-py36h250f245_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//mkl-2018.0.3-1.tar.bz2
+https://anaconda.org/conda-forge/mkl_fft/1.0.10/download/linux-64/mkl_fft-1.0.10-py36_0.tar.bz2
+https://anaconda.org/conda-forge/mkl_random/1.0.2/download/linux-64/mkl_random-1.0.2-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//mock-3.0.5-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//natsort-5.5.0-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//nccl-1.3.5-cuda9.0_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//ncurses-6.1-he6710b0_1.tar.bz2
+https://anaconda.org/conda-forge/nettle/3.4.1/download/linux-64/nettle-3.4.1-h1bed415_1002.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/networkx-2.4-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//ninja-1.8.2-py36h6bb024c_1.tar.bz2
+https://anaconda.org/conda-forge/nspr/4.25/download/linux-64/nspr-4.25-he1b5a44_0.tar.bz2
+https://anaconda.org/conda-forge/nss/3.47/download/linux-64/nss-3.47-he751ad9_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//numpy-1.17.3-py36h7e8d029_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//numpy-base-1.17.3-py36h2f8d375_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//olefile-0.46-py36_0.tar.bz2
+https://anaconda.org/conda-forge/opencv/4.1.2/download/linux-64/opencv-4.1.2-0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/openh264-1.8.0-hd408876_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//openssl-1.1.1a-h7b6447c_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/packaging-19.2-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//pandas-0.23.4-py36h04863e7_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/parso-0.5.1-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//patsy-0.5.1-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//pcre-8.42-h439df22_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//perf-1.5.1-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//pexpect-4.7.0-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//pickleshare-0.7.5-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//pillow-5.4.1-py36h34e0f95_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//pip-18.1-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/pixman-0.38.0-h7b6447c_0.tar.bz2
+https://anaconda.org/conda-forge/pockets/0.9.1/download/noarch/pockets-0.9.1-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/prompt_toolkit-2.0.10-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//protobuf-3.6.1-py36he6710b0_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//ptyprocess-0.6.0-py36_0.tar.bz2
+https://anaconda.org/conda-forge/py-opencv/4.1.2/download/linux-64/py-opencv-4.1.2-py36h5ca1d4c_0.tar.bz2
+https://anaconda.org/conda-forge/py-xgboost/0.90/download/linux-64/py-xgboost-0.90-py36_4.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//pycparser-2.19-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/pygments-2.4.2-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//pyopenssl-19.0.0-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//pyparsing-2.3.0-py36_0.tar.bz2
+https://anaconda.org/conda-forge/pyqt/5.12.3/download/linux-64/pyqt-5.12.3-py36hcca6a23_1.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//pysocks-1.7.1-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//python-3.6.8-h0371630_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//python-dateutil-2.7.5-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//pytorch-0.4.0-py36hdf912b8_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//pytz-2018.7-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/pywavelets-1.1.1-py36h7b6447c_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//pyzmq-18.1.0-py36he6710b0_0.tar.bz2
+https://anaconda.org/conda-forge/qt/5.12.5/download/linux-64/qt-5.12.5-hd8c4c69_1.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//readline-7.0-h7b6447c_5.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//requests-2.22.0-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/scikit-image-0.16.2-py36h0573a6f_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//scikit-learn-0.21.3-py36h22eb022_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//scipy-1.3.1-py36he2b7bc3_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//seaborn-0.9.0-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//setuptools-40.6.3-py36_0.tar.bz2
+https://anaconda.org/conda-forge/shap/0.34.0/download/linux-64/shap-0.34.0-py36hb3f55d8_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//sip-4.19.8-py36hf484d3e_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//six-1.12.0-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/snowballstemmer-2.0.0-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/sphinx-2.2.1-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/sphinx_rtd_theme-0.4.3-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/sphinxcontrib-applehelp-1.0.1-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/sphinxcontrib-devhelp-1.0.1-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/sphinxcontrib-htmlhelp-1.0.2-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/sphinxcontrib-jsmath-1.0.1-py_0.tar.bz2
+https://anaconda.org/conda-forge/sphinxcontrib-napoleon/0.7/download/noarch/sphinxcontrib-napoleon-0.7-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/sphinxcontrib-qthelp-1.0.2-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/sphinxcontrib-serializinghtml-1.1.3-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/sqlite-3.31.1-h7b6447c_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//statsmodels-0.10.1-py36hdd07704_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//tensorboard-1.12.2-py36he6710b0_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//tensorflow-1.12.0-gpu_py36he68c306_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//tensorflow-base-1.12.0-gpu_py36h8e0ae2d_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//tensorflow-gpu-1.12.0-h0d30ee6_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//termcolor-1.1.0-py36_1.tar.bz2
+https://anaconda.org/conda-forge/tk/8.6.10/download/linux-64/tk-8.6.10-hed695b0_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/toolz-0.10.0-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//torchvision-0.2.1-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//tornado-5.1.1-py36h7b6447c_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/tqdm-4.42.1-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//traitlets-4.3.3-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//urllib3-1.24.2-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//wcwidth-0.1.7-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//werkzeug-0.14.1-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//wheel-0.32.3-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/x264-1!152.20180806-h7b6447c_0.tar.bz2
+https://anaconda.org/conda-forge/xgboost/0.90/download/linux-64/xgboost-0.90-py36he1b5a44_4.tar.bz2
+https://anaconda.org/conda-forge/xorg-kbproto/1.0.7/download/linux-64/xorg-kbproto-1.0.7-h14c3975_1002.tar.bz2
+https://anaconda.org/conda-forge/xorg-libice/1.0.10/download/linux-64/xorg-libice-1.0.10-h516909a_0.tar.bz2
+https://anaconda.org/conda-forge/xorg-libsm/1.2.3/download/linux-64/xorg-libsm-1.2.3-h84519dc_1000.tar.bz2
+https://anaconda.org/conda-forge/xorg-libx11/1.6.9/download/linux-64/xorg-libx11-1.6.9-h516909a_0.tar.bz2
+https://anaconda.org/conda-forge/xorg-libxext/1.3.4/download/linux-64/xorg-libxext-1.3.4-h516909a_0.tar.bz2
+https://anaconda.org/conda-forge/xorg-libxrender/0.9.10/download/linux-64/xorg-libxrender-0.9.10-h516909a_1002.tar.bz2
+https://anaconda.org/conda-forge/xorg-renderproto/0.11.1/download/linux-64/xorg-renderproto-0.11.1-h14c3975_1002.tar.bz2
+https://anaconda.org/conda-forge/xorg-xextproto/7.3.0/download/linux-64/xorg-xextproto-7.3.0-h14c3975_1002.tar.bz2
+https://anaconda.org/conda-forge/xorg-xproto/7.0.31/download/linux-64/xorg-xproto-7.0.31-h14c3975_1007.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//xz-5.2.4-h14c3975_4.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//zeromq-4.3.1-he6710b0_3.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64//zlib-1.2.11-h7b6447c_3.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/zstd-1.3.7-h0b5b093_0.tar.bz2
