@@ -34,5 +34,6 @@ ENV PATH=/root/conda/bin:${PATH}
 ADD env_ia.yml ./env_ia.yml
 RUN conda create --name env_ia --file env_ia.yml \
   && rm -rf env_ia.yml \
+  && conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch \
   && conda install -c conda-forge jupyterlab \
   && conda clean --all -y
